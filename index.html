@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LiftOff360 — Ad-Tech Venture Studio</title>
+  <meta name="description" content="If you wake up each morning knowing you can build it yourself — touch the big numbers — and only need a lift-off to start… we’re here for you." />
+  <link rel="stylesheet" href="/styles.css" />
+  <script defer src="/script.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="#home">LiftOff360</a>
+    <nav>
+      <a href="#thesis">Thesis</a>
+      <a href="#offer">Offer</a>
+      <a href="#program">Program</a>
+      <a href="#apply">Apply</a>
+    </nav>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="container">
+      <h1>LiftOff360</h1>
+      <p class="lead">If you wake up each morning knowing you can build it yourself — touch the big numbers — and only need a lift-off to start… we’re here for you.</p>
+      <div class="cta-row">
+        <a class="btn" href="#apply">Apply as Founder</a>
+        <a class="btn ghost" href="#partners">Partner as LP</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="thesis" class="section">
+    <div class="container">
+      <h2>Our Thesis</h2>
+      <p>Ad-tech is not generic SaaS. It’s complex, with demand & supply, identity, compliance, and TV infra. LiftOff360 exists to lift C-level founders into the next wave of ad-tech ventures.</p>
+    </div>
+  </section>
+
+  <section id="offer" class="section">
+    <div class="container">
+      <h2>What We Offer</h2>
+      <ul>
+        <li>Capital: $100k–$250k pre-seed checks</li>
+        <li>Infrastructure: Legal, finance, workspace</li>
+        <li>Brand & GTM: Logo, website, PR</li>
+        <li>Operator Network: SSPs, DSPs, agencies</li>
+        <li>Playbooks: SSAI/CSAI, SDKs, SPO</li>
+        <li>Community: Peer guild of senior operators</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="program" class="section">
+    <div class="container">
+      <h2>The 12-Month Program</h2>
+      <p>From incorporation to seed funding in 12 months. We provide the full 360° lift-off.</p>
+    </div>
+  </section>
+
+  <section id="apply" class="section">
+    <div class="container">
+      <h2>Apply</h2>
+      <form action="mailto:hello@liftoff360.com" method="post" enctype="text/plain">
+        <label>Name <input type="text" name="name" required></label><br>
+        <label>Email <input type="email" name="email" required></label><br>
+        <label>Message <textarea name="message"></textarea></label><br>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> LiftOff360</p>
+  </div>
+</footer>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
